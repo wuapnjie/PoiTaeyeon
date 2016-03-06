@@ -58,7 +58,7 @@ public class PostcardAdapter extends SwipePostcard.Adapter {
             view.setTag(holder);
         }
         holder.mTvDescribe.setText(taeyeon.getDescription());
-        Picasso.with(mContext).load("http://192.168.1.100:8080/PoiTaeyeon-service"+taeyeon.getPic()).into(holder.mIvTaeyeon);
+        Picasso.with(mContext).load("http://192.168.1.103:8080/PoiTaeyeon-service"+taeyeon.getPic()).into(holder.mIvTaeyeon);
     }
 
     @Override

@@ -16,7 +16,7 @@ import rx.Observable;
  */
 public class DataTruck {
     private final String TAG = DataTruck.class.getSimpleName();
-    public static final String BASE_URL = "http://192.168.1.100:8080/PoiTaeyeon-service/webapi/";
+    public static final String BASE_URL = "http://192.168.1.103:8080/PoiTaeyeon-service/webapi/";
 
     private PoiTaeyeonService mService;
 
